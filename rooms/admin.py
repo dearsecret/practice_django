@@ -4,5 +4,6 @@ from . import models
 # Register your models here.
 
 
+@admin.register(models.Room)
 class Room(admin.ModelAdmin):
     pass

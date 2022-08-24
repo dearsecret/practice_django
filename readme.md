@@ -35,3 +35,14 @@ DJANGO REF - Auth user
    makemigrations / migrate / runserver
 
 - login issue db.sqlite3 삭제하고 createsuperuser 진행하면 해결됨.
+
+# 3. Core
+
+    TimeStampModel 생성 및 설정
+
+# 4. rooms
+
+    Third Party : django-countries 설치
+    models 정의 /
+    ForeignKey / ManytoManyField /
+    __str__ class
