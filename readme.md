@@ -17,3 +17,21 @@
 4. django-admin startapp 정의
    users / rooms / reservations / conversations / lists
    공통항목으로 core
+
+# 2. User
+
+DJANGO REF - Auth user
+
+1. config > settings.py > auth_user_model 설정 / app설치
+
+2. User model 및 admin 작성 (auth 해당)
+
+3. 저장시 black 설치 요구
+
+4. Pillow 설치 요구
+
+5. python manage.py
+   createsuperuser 작성
+   makemigrations / migrate / runserver
+
+- login issue db.sqlite3 삭제하고 createsuperuser 진행하면 해결됨.
