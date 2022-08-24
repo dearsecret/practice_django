@@ -46,3 +46,6 @@ DJANGO REF - Auth user
     models 정의 /
     ForeignKey / ManytoManyField /
     __str__ class
+
+    meta / abstract
+    verbose_name_plural
