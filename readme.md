@@ -48,4 +48,4 @@ DJANGO REF - Auth user
     __str__ class
 
     meta / abstract
-    verbose_name_plural
+    verbose_name vs verbose_name_plural
