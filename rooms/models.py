@@ -15,7 +15,7 @@ class AbstractItem(core_models.TimeStampedModel):
         abstract = True
 
     def __str__(self):
-        return self.name
+        return f"{self.name}"
 
 
 class RoomType(AbstractItem):
@@ -44,7 +44,7 @@ class Photo(core_models.TimeStampedModel):
     room = models.ForeignKey("Room", on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.caption
+        return f"{self.caption}"
 
 
 class Room(core_models.TimeStampedModel):
@@ -71,4 +71,4 @@ class Room(core_models.TimeStampedModel):
     house_rules = models.ManyToManyField(HouseRule)
 
     def __str__(self):
-        return self.name
+        return f"{self.name}"
